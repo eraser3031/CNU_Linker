@@ -13,8 +13,10 @@ struct CNU_LinkerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+//                .preferredColorScheme(.light)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }

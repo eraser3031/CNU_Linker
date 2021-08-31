@@ -13,6 +13,10 @@
 		218C286726DE1B6B00A9E943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 218C286626DE1B6B00A9E943 /* Preview Assets.xcassets */; };
 		218C286926DE1B6B00A9E943 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C286826DE1B6B00A9E943 /* Persistence.swift */; };
 		218C286C26DE1B6B00A9E943 /* CNU_Linker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 218C286A26DE1B6B00A9E943 /* CNU_Linker.xcdatamodeld */; };
+		218C287626DE1C3200A9E943 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C287526DE1C3200A9E943 /* HomeView.swift */; };
+		218C287826DE1CCE00A9E943 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C287726DE1CCE00A9E943 /* VisualEffectView.swift */; };
+		218C287B26DE283A00A9E943 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C287A26DE283A00A9E943 /* Color.swift */; };
+		218C287D26DE2FAD00A9E943 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218C287C26DE2FAD00A9E943 /* Shadow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		218C286B26DE1B6B00A9E943 /* CNU_Linker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CNU_Linker.xcdatamodel; sourceTree = "<group>"; };
 		218C286D26DE1B6B00A9E943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218C286E26DE1B6B00A9E943 /* CNU_Linker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CNU_Linker.entitlements; sourceTree = "<group>"; };
+		218C287526DE1C3200A9E943 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		218C287726DE1CCE00A9E943 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		218C287A26DE283A00A9E943 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		218C287C26DE2FAD00A9E943 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,8 @@
 		218C285E26DE1B6900A9E943 /* CNU_Linker */ = {
 			isa = PBXGroup;
 			children = (
+				218C287926DE282F00A9E943 /* Extensions */,
+				218C287426DE1C2600A9E943 /* View */,
 				218C285F26DE1B6900A9E943 /* CNU_LinkerApp.swift */,
 				218C286126DE1B6900A9E943 /* ContentView.swift */,
 				218C286326DE1B6B00A9E943 /* Assets.xcassets */,
@@ -75,6 +85,24 @@
 				218C286626DE1B6B00A9E943 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		218C287426DE1C2600A9E943 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				218C287526DE1C3200A9E943 /* HomeView.swift */,
+				218C287726DE1CCE00A9E943 /* VisualEffectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		218C287926DE282F00A9E943 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				218C287C26DE2FAD00A9E943 /* Shadow.swift */,
+				218C287A26DE283A00A9E943 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +176,12 @@
 			files = (
 				218C286926DE1B6B00A9E943 /* Persistence.swift in Sources */,
 				218C286C26DE1B6B00A9E943 /* CNU_Linker.xcdatamodeld in Sources */,
+				218C287B26DE283A00A9E943 /* Color.swift in Sources */,
 				218C286226DE1B6900A9E943 /* ContentView.swift in Sources */,
+				218C287626DE1C3200A9E943 /* HomeView.swift in Sources */,
+				218C287D26DE2FAD00A9E943 /* Shadow.swift in Sources */,
 				218C286026DE1B6900A9E943 /* CNU_LinkerApp.swift in Sources */,
+				218C287826DE1CCE00A9E943 /* VisualEffectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
