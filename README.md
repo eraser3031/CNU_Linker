@@ -10,6 +10,3 @@
 
 SwiftUI와 Core Data + CloudKit 기반으로 만든 앱이기 때문에 같은 iCloud 계정을 가지고 있다면 운영체제와 별개로 애플의 여러 기기에서도 동기화가 가능하나, 현재는 MacOS만 지원하고 있습니다.
 
-
-![Image of Yaktocat](https://github.com/eraser3031/Readme-Images/blob/master/CNU_Linker_Sheet.png)
-![Image of Yaktocat](https://github.com/eraser3031/Readme-Images/blob/master/CNU_Linker_DarkMode.png)
